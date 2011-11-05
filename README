@@ -57,6 +57,18 @@ gesture to dispay / navigate content.
 Mega tak to Nathan de Vries for sharing his UIWebView findings - 
 atnan.com/​blog/​2011/​11/​03/​enabling-and-using-webgl-on-ios/​
 
+Gestures and Input:
+
+a. adress bar 
+
+-> (1) two fingers double tap or (2) shake motion makes the address bar appear
+-> the address needs to contain "http://" as prefix
+
+b. navigation
+
+-> swipe left => go forward
+-> swipe right => go back
+
 marcin ignac - m.ignac@ciid.dk
 dviid gauthiier - dviid@ciid.dk
 
