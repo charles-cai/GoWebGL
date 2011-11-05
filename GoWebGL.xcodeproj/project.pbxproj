@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55C1758146341AE001F0CDD /* marcin.png in Resources */ = {isa = PBXBuildFile; fileRef = B55C1757146341AE001F0CDD /* marcin.png */; };
+		B55F9D971462F67B0002F59F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F9D961462F67B0002F59F /* UIKit.framework */; };
+		B55F9D991462F67B0002F59F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F9D981462F67B0002F59F /* Foundation.framework */; };
+		B55F9D9B1462F67B0002F59F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F9D9A1462F67B0002F59F /* CoreGraphics.framework */; };
+		B55F9DA31462F67B0002F59F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F9DA21462F67B0002F59F /* main.m */; };
+		B55F9DA71462F67B0002F59F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F9DA61462F67B0002F59F /* AppDelegate.m */; };
+		B55F9DB41462F7740002F59F /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F9DB31462F7740002F59F /* AppViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B55C1757146341AE001F0CDD /* marcin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcin.png; sourceTree = "<group>"; };
+		B55F9D921462F67B0002F59F /* GoWebGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoWebGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55F9D961462F67B0002F59F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B55F9D981462F67B0002F59F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B55F9D9A1462F67B0002F59F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B55F9D9E1462F67B0002F59F /* GoWebGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoWebGL-Info.plist"; sourceTree = "<group>"; };
+		B55F9DA21462F67B0002F59F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55F9DA41462F67B0002F59F /* GoWebGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoWebGL-Prefix.pch"; sourceTree = "<group>"; };
+		B55F9DA51462F67B0002F59F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B55F9DA61462F67B0002F59F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B55F9DB21462F7740002F59F /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		B55F9DB31462F7740002F59F /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55F9D8F1462F67B0002F59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55F9D971462F67B0002F59F /* UIKit.framework in Frameworks */,
+				B55F9D991462F67B0002F59F /* Foundation.framework in Frameworks */,
+				B55F9D9B1462F67B0002F59F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55F9D871462F67B0002F59F = {
+			isa = PBXGroup;
+			children = (
+				B55F9D9C1462F67B0002F59F /* GoWebGL */,
+				B55F9D951462F67B0002F59F /* Frameworks */,
+				B55F9D931462F67B0002F59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55F9D931462F67B0002F59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55F9D921462F67B0002F59F /* GoWebGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55F9D951462F67B0002F59F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55F9D961462F67B0002F59F /* UIKit.framework */,
+				B55F9D981462F67B0002F59F /* Foundation.framework */,
+				B55F9D9A1462F67B0002F59F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B55F9D9C1462F67B0002F59F /* GoWebGL */ = {
+			isa = PBXGroup;
+			children = (
+				B55F9DA51462F67B0002F59F /* AppDelegate.h */,
+				B55F9DA61462F67B0002F59F /* AppDelegate.m */,
+				B55F9D9D1462F67B0002F59F /* Supporting Files */,
+				B55F9DB21462F7740002F59F /* AppViewController.h */,
+				B55F9DB31462F7740002F59F /* AppViewController.m */,
+			);
+			path = GoWebGL;
+			sourceTree = "<group>";
+		};
+		B55F9D9D1462F67B0002F59F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55C1757146341AE001F0CDD /* marcin.png */,
+				B55F9D9E1462F67B0002F59F /* GoWebGL-Info.plist */,
+				B55F9DA21462F67B0002F59F /* main.m */,
+				B55F9DA41462F67B0002F59F /* GoWebGL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55F9D911462F67B0002F59F /* GoWebGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55F9DAA1462F67B0002F59F /* Build configuration list for PBXNativeTarget "GoWebGL" */;
+			buildPhases = (
+				B55F9D8E1462F67B0002F59F /* Sources */,
+				B55F9D8F1462F67B0002F59F /* Frameworks */,
+				B55F9D901462F67B0002F59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoWebGL;
+			productName = GoWebGL;
+			productReference = B55F9D921462F67B0002F59F /* GoWebGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55F9D891462F67B0002F59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B55F9D8C1462F67B0002F59F /* Build configuration list for PBXProject "GoWebGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B55F9D871462F67B0002F59F;
+			productRefGroup = B55F9D931462F67B0002F59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55F9D911462F67B0002F59F /* GoWebGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55F9D901462F67B0002F59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55C1758146341AE001F0CDD /* marcin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55F9D8E1462F67B0002F59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55F9DA31462F67B0002F59F /* main.m in Sources */,
+				B55F9DA71462F67B0002F59F /* AppDelegate.m in Sources */,
+				B55F9DB41462F7740002F59F /* AppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B55F9DA81462F67B0002F59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55F9DA91462F67B0002F59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55F9DAB1462F67B0002F59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoWebGL/GoWebGL-Prefix.pch";
+				INFOPLIST_FILE = "GoWebGL/GoWebGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B55F9DAC1462F67B0002F59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoWebGL/GoWebGL-Prefix.pch";
+				INFOPLIST_FILE = "GoWebGL/GoWebGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55F9D8C1462F67B0002F59F /* Build configuration list for PBXProject "GoWebGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55F9DA81462F67B0002F59F /* Debug */,
+				B55F9DA91462F67B0002F59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55F9DAA1462F67B0002F59F /* Build configuration list for PBXNativeTarget "GoWebGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55F9DAB1462F67B0002F59F /* Debug */,
+				B55F9DAC1462F67B0002F59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55F9D891462F67B0002F59F /* Project object */;
+}
