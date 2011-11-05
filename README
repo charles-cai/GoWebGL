@@ -54,8 +54,7 @@ mmddddddddddddmmdddddddddddddddddmmmmmmmddhhhhhhhhhyyyyhhhhddhhmNMMMMMMMMMMMMMMM
 GoWebGL is a (very) simple WebGL enabled browser for iOS 5 enable devices using UIWebView hack and
 gesture to dispay / navigate content.
 
-Mega tak to Nathan de Vries for sharing his UIWebView findings - 
-atnan.com/​blog/​2011/​11/​03/​enabling-and-using-webgl-on-ios/​
+Mega tak to Nathan de Vries for sharing his [UIWebView findings](atnan.com/​blog/​2011/​11/​03/​enabling-and-using-webgl-on-ios/​)
 
 Gestures and Inputs:
 
