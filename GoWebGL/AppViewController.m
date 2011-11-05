@@ -133,6 +133,10 @@
     _query = [[txtf text] copy];    
     [txtf resignFirstResponder];
     
+    if(![_query hasPrefix:@"http://"] || ![_query hasPrefix:@"https://"]) {
+        _query = [NSString stringWithFormat:@"http://%@",_query];
+    }
+    
     NSURL *url = [NSURL URLWithString:_query];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     [((UIWebView*)self.view) loadRequest:request];
